@@ -41,6 +41,22 @@ O projeto oferece uma plataforma na qual os usuários podem interagir com filmes
 
 Forneça instruções claras sobre como instalar o seu projeto. Inclua dependências, comandos de instalação e qualquer configuração adicional necessária.
 
-```bash
-# Exemplo de comandos de instalação
-npm install
+
+## Estrutura do Banco de Dados
+
+O projeto utiliza um banco de dados para armazenar informações essenciais. Abaixo está a estrutura das tabelas no banco de dados.
+
+## Tabela `users`
+
+```sql
+CREATE TABLE users (
+    id INT(11) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100),
+    lastname VARCHAR(100),
+    email VARCHAR(100),
+    password VARCHAR(100),
+    image VARCHAR(300),
+    token VARCHAR(300),
+    bio TEXT 
+);
+```
