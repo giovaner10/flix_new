@@ -1,4 +1,4 @@
-# Nome do Seu Projeto
+# Flix New
 
 Conectando amantes de filmes.
 

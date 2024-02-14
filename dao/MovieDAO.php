@@ -3,7 +3,6 @@
   require_once("models/Movie.php");
   require_once("models/Message.php");
 
-  // Review DAO
   require_once("dao/ReviewDAO.php");
 
   class MovieDAO implements MovieDAOInterface {
@@ -41,9 +40,7 @@
       return $movie;
 
     }
-
     public function findAll() {
-
     }
 
     public function getLatestMovies() {
@@ -189,7 +186,6 @@
 
       $stmt->execute();
 
-      // Mensagem de sucesso por adicionar filme
       $this->message->setMessage("Filme adicionado com sucesso!", "success", "index.php");
 
     }
@@ -216,7 +212,6 @@
 
       $stmt->execute();
 
-      // Mensagem de sucesso por editar filme
       $this->message->setMessage("Filme atualizado com sucesso!", "success", "dashboard.php");
 
     }
@@ -229,7 +224,6 @@
 
       $stmt->execute();
 
-      // Mensagem de sucesso por remover filme
       $this->message->setMessage("Filme removido com sucesso!", "success", "dashboard.php");
 
     }

@@ -14,15 +14,12 @@
   $movieDao = new MovieDAO($conn, $BASE_URL);
   $reviewDao = new ReviewDAO($conn, $BASE_URL);
 
-  // Recebendo o tipo do formulário
   $type = filter_input(INPUT_POST, "type");
 
-  // Resgata dados do usuário
   $userData = $userDao->verifyToken();
 
   if($type === "create") {
 
-    // Recebendo dados do post
     $rating = filter_input(INPUT_POST, "rating");
     $review = filter_input(INPUT_POST, "review");
     $movies_id = filter_input(INPUT_POST, "movies_id");
@@ -32,10 +29,8 @@
 
     $movieData = $movieDao->findById($movies_id);
 
-    // Validando se o filme existe
     if($movieData) {
 
-      // Verificar dados mínimos
       if(!empty($rating) && !empty($review) && !empty($movies_id)) {
 
         $reviewObject->rating = $rating;

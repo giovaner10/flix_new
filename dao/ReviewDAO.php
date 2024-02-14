@@ -2,7 +2,6 @@
 
   require_once("models/Review.php");
   require_once("models/Message.php");
-
   require_once("dao/UserDAO.php");
 
   class ReviewDao implements ReviewDAOInterface {
@@ -46,7 +45,6 @@
 
       $stmt->execute();
 
-      // Mensagem de sucesso por adicionar filme
       $this->message->setMessage("Crítica adicionada com sucesso!", "success", "index.php");
 
     }
@@ -71,7 +69,6 @@
 
           $reviewObject = $this->buildReview($review);
 
-          // Chamar dados do usuário
           $user = $userDao->findById($reviewObject->users_id);
 
           $reviewObject->user = $user;

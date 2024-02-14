@@ -48,7 +48,6 @@
 
       $stmt->execute();
 
-      // Autenticar usuário, caso auth seja true
       if($authUser) {
         $this->setTokenToSession($user->token);
       }
@@ -79,7 +78,6 @@
 
       if($redirect) {
 
-        // Redireciona para o perfil do usuario
         $this->message->setMessage("Dados atualizados com sucesso!", "success", "editprofile.php");
 
       }
@@ -90,7 +88,6 @@
 
       if(!empty($_SESSION["token"])) {
 
-        // Pega o token da session
         $token = $_SESSION["token"];
 
         $user = $this->findByToken($token);
@@ -99,14 +96,12 @@
           return $user;
         } else if($protected) {
 
-          // Redireciona usuário não autenticado
           $this->message->setMessage("Faça a autenticação para acessar esta página!", "error", "index.php");
 
         }
 
       } else if($protected) {
 
-        // Redireciona usuário não autenticado
         $this->message->setMessage("Faça a autenticação para acessar esta página!", "error", "index.php");
 
       }
@@ -115,12 +110,10 @@
 
     public function setTokenToSession($token, $redirect = true) {
 
-      // Salvar token na session
       $_SESSION["token"] = $token;
 
       if($redirect) {
 
-        // Redireciona para o perfil do usuario
         $this->message->setMessage("Seja bem-vindo!", "success", "editprofile.php");
 
       }
@@ -133,15 +126,12 @@
 
       if($user) {
 
-        // Checar se as senhas batem
         if(password_verify($password, $user->password)) {
 
-          // Gerar um token e inserir na session
           $token = $user->generateToken();
 
           $this->setTokenToSession($token, false);
 
-          // Atualizar token no usuário
           $user->token = $token;
 
           $this->update($user, false);
@@ -242,10 +232,8 @@
 
     public function destroyToken() {
 
-      // Remove o token da session
       $_SESSION["token"] = "";
 
-      // Redirecionar e apresentar a mensagem de sucesso
       $this->message->setMessage("Você fez o logout com sucesso!", "success", "index.php");
 
     }
@@ -262,7 +250,6 @@
 
       $stmt->execute();
 
-      // Redirecionar e apresentar a mensagem de sucesso
       $this->message->setMessage("Senha alterada com sucesso!", "success", "editprofile.php");
 
     }
