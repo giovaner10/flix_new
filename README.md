@@ -7,6 +7,9 @@ Conectando amantes de filmes.
 - [Visão Geral](#visão-geral)
 - [Funcionalidades](#funcionalidades)
 - [Estrutura do Banco de Dados](#estrutura-do-banco-de-dados)
+- [Imagens do projeto](#imagens-do-projeto)
+
+
 
 ## Visão Geral
 
@@ -109,6 +112,9 @@ CREATE TABLE reviews (
 - **review:** Comentário da avaliação.
 - **users_id:** Identificador do usuário que fez a avaliação.
 - **movies_id:** Identificador do filme avaliado.
+
+
+## Imagens do projeto
 
 
 >Home
