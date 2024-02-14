@@ -46,6 +46,9 @@ Forneça instruções claras sobre como instalar o seu projeto. Inclua dependên
 
 O projeto utiliza um banco de dados para armazenar informações essenciais. Abaixo está a estrutura das tabelas no banco de dados.
 
+![Estrutura do banco de dados.](https://github.com/giovaner10/flix_new/blob/main/img/proj/db.png)
+
+
 
 ```sql
 CREATE DATABASE moviestar;
