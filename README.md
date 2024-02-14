@@ -15,12 +15,10 @@ Conectando amantes de filmes.
 #### Tecnologias empregadas
  <p align="center">
 
-![Java](https://img.shields.io/badge/php-00000F?style=for-the-badge&logo=php&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
-![Javascript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Typescript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
+![php](https://img.shields.io/badge/php-00000F?style=for-the-badge&logo=php&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white)
+![html5](https://img.shields.io/badge/-HTML5-E34F26?style=flat&logo=html5&logoColor=white)
+![css3](https://img.shields.io/badge/-CSS3-1572B6?style=flat&logo=css3&logoColor=white)
   </p>
 O projeto oferece uma plataforma na qual os usuários podem interagir com filmes. Eles podem criar uma conta, fazer login, deslogar, editar seu perfil e realizar várias ações relacionadas a filmes.
 
