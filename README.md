@@ -111,6 +111,6 @@ CREATE TABLE reviews (
 - **movies_id:** Identificador do filme avaliado.
 
 
-> Descrição breve da imagem e sua importância no contexto do projeto.
-![Funcionalidade Principal](./imagens/funcionalidade.png){width=450px height=370px}
+>Home
+![Funcionalidade Principal](https://github.com/giovaner10/flix_new/blob/main/img/proj/im1.png){width=450px height=370px}
 
