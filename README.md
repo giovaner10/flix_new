@@ -65,14 +65,15 @@ CREATE TABLE users (
     bio TEXT 
 );
 ```
-id: Identificador único do usuário.
-name: Nome do usuário.
-lastname: Sobrenome do usuário.
-email: Endereço de e-mail do usuário.
-password: Senha do usuário.
-image: URL da imagem de perfil do usuário.
-token: Token para autenticação.
-bio: Biografia do usuário.
+- **id:** Identificador único do usuário.
+- **name:** Nome do usuário.
+- **lastname:** Sobrenome do usuário.
+- **email:** Endereço de e-mail do usuário.
+- **password:** Senha do usuário.
+- **image:** URL da imagem de perfil do usuário.
+- **token:** Token para autenticação.
+- **bio:** Biografia do usuário.
+
 
 ```sql
 CREATE TABLE movies (
@@ -87,14 +88,15 @@ CREATE TABLE movies (
     FOREIGN KEY(users_id) REFERENCES users(id)
 );
 ```
-id: Identificador único do filme.
-title: Título do filme.
-length: Duração do filme.
-category: Categoria do filme.
-trailer: URL do trailer do filme.
-image: URL da imagem do filme.
-description: Descrição do filme.
-users_id: Identificador do usuário que adicionou o filme.
+- **id:** Identificador único do filme.
+- **title:** Título do filme.
+- **length:** Duração do filme.
+- **category:** Categoria do filme.
+- **trailer:** URL do trailer do filme.
+- **image:** URL da imagem do filme.
+- **description:** Descrição do filme.
+- **users_id:** Identificador do usuário que adicionou o filme.
+
 
 ```sql
 CREATE TABLE reviews (
@@ -107,8 +109,8 @@ CREATE TABLE reviews (
     FOREIGN KEY(movies_id) REFERENCES movies(id)
 );
 ```
-id: Identificador único da avaliação.
-rating: Classificação da avaliação.
-review: Comentário da avaliação.
-users_id: Identificador do usuário que fez a avaliação.
-movies_id: Identificador do filme avaliado.
+- **id:** Identificador único da avaliação.
+- **rating:** Classificação da avaliação.
+- **review:** Comentário da avaliação.
+- **users_id:** Identificador do usuário que fez a avaliação.
+- **movies_id:** Identificador do filme avaliado.
