@@ -6,11 +6,7 @@ Conectando amantes de filmes.
 
 - [Visão Geral](#visão-geral)
 - [Funcionalidades](#funcionalidades)
-- [Instalação](#instalação)
-- [Uso](#uso)
-- [Contribuição](#contribuição)
-- [Licença](#licença)
-- [Contato](#contato)
+- [Estrutura do Banco de Dados](#estrutura-do-banco-de-dados)
 
 ## Visão Geral
 
@@ -37,10 +33,6 @@ O projeto oferece uma plataforma na qual os usuários podem interagir com filmes
   - O usuário pode comentar em um filme (apenas se não o tiver adicionado).
   - O usuário terá uma dashboard com todos os filmes que adicionou.
   - Deverá existir uma tela para a visualização detalhada dos filmes.
-## Instalação
-
-Forneça instruções claras sobre como instalar o seu projeto. Inclua dependências, comandos de instalação e qualquer configuração adicional necessária.
-
 
 ## Estrutura do Banco de Dados
 
