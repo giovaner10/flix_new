@@ -112,5 +112,27 @@ CREATE TABLE reviews (
 
 
 >Home
-![Funcionalidade Principal](https://github.com/giovaner10/flix_new/blob/main/img/proj/im1.png){width=450px height=370px}
+![Funcionalidade Principal](https://github.com/giovaner10/flix_new/blob/main/img/proj/img1.png)
 
+
+>Home continuação por categorias
+![Funcionalidade Principal](https://github.com/giovaner10/flix_new/blob/main/img/proj/img2.png)
+
+
+>Tela de busca
+![Funcionalidade Principal](https://github.com/giovaner10/flix_new/blob/main/img/proj/img3.png)
+
+
+>Tela do filme
+![Funcionalidade Principal](https://github.com/giovaner10/flix_new/blob/main/img/proj/img4.png)
+
+>Dashboard com os meus filmes
+![Funcionalidade Principal](https://github.com/giovaner10/flix_new/blob/main/img/proj/img8.png)
+
+
+>Avaliação com nota e comentario do filme
+![Funcionalidade Principal](https://github.com/giovaner10/flix_new/blob/main/img/proj/img5.png)
+
+
+>Tela de perfil do usuario + edição
+![Funcionalidade Principal](https://github.com/giovaner10/flix_new/blob/main/img/proj/img6.png)
