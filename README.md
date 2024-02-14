@@ -109,3 +109,8 @@ CREATE TABLE reviews (
 - **review:** Comentário da avaliação.
 - **users_id:** Identificador do usuário que fez a avaliação.
 - **movies_id:** Identificador do filme avaliado.
+
+
+> Descrição breve da imagem e sua importância no contexto do projeto.
+![Funcionalidade Principal](./imagens/funcionalidade.png){width=450px height=370px}
+
